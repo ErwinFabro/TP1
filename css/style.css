@@ -32,8 +32,9 @@ section{
 }
 
 p {
-
     
+    font-weight: bold;
+    padding: 10px;
 }
 
 
@@ -195,17 +196,23 @@ p {
 
 }
 
+.alineate {
+
+    background-color: transparent;
+
+  }
+
 /* div del imput */
 .inputsForm{
     background-color: transparent;
-    width: 400px;
+
     padding: 30px;
 }
 
 /* otro div del input */
 .inputsForm2{
 
-    background-color: #fff;
+    background-color: transparent;
     color: #818181;
     font-weight: bold;
     margin: 15px;
@@ -253,3 +260,4 @@ p {
     background-color: #fcfcfa;
 
   }
+
