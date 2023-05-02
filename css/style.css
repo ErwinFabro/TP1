@@ -1,0 +1,83 @@
+/* fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    background-color: transparent;
+    font-family: 'Questrial', sans-serif;
+
+}
+
+a {
+    color: orange;
+}
+
+/* contenedor */
+section{
+    background-color: transparent;
+     display: flex; 
+    justify-content: center;
+    margin: 10%;
+}
+
+
+/* imagen del index */
+.imgindex{
+    background-image: url(/img/gift.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 60px;
+    border-radius: 10px 10px 10px 10px
+    }
+
+
+/* seccion derecha */
+.sidebar{
+    width: 400px;
+    height: 600px;
+    border: 2px solid #d2d2d2;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+/* texto seccion derecha */
+.sidebarText{ 
+    padding-top: 10px;
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    color: rgb(20, 20, 20);    
+}
+
+/* div de los botones de redes sociales */
+.BotonesSignIn{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+}
+
+/* div de redes sociales */
+.iconRed{
+    border: 0.1px solid rgb(202, 198, 198);
+    border-radius: 10%;
+    width: 17%;    
+    margin: 4%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+.iconRed:hover{
+    border: 0.2px solid grey;
+    border-radius: 10%;
+    width: 17%;    
+    margin: 4%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
