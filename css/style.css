@@ -2,66 +2,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
 *{
+
     margin: 0;
     padding: 0;  
+
 }
 
 body{
+
     background-color: transparent;
     font-family: 'Questrial', sans-serif;
 
 }
 
 a {
+
     color: orange;
+    cursor: pointer;
+
 }
 
-/* contenedor */
 section{
+
     background-color: transparent;
      display: flex; 
     justify-content: center;
     margin: 10%;
+
 }
 
 
 /* imagen del index */
-.imgindex{
+.imageIndex{
+
     background-image: url(/img/gift.jpg);
     background-position: center;
     background-size: cover;
     margin-right: 60px;
+    height: 600px;
+    width: 600px;
     border-radius: 10px 10px 10px 10px
+
     }
 
 
 /* seccion derecha */
 .sidebar{
+
     width: 400px;
     height: 600px;
     border: 2px solid #d2d2d2;
     border-radius: 10px 10px 10px 10px;
+
 }
 
 
 /* texto seccion derecha */
 .sidebarText{ 
+
     padding-top: 10px;
     display: flex;
     font-size: 18px;
     justify-content: center;
-    color: rgb(20, 20, 20);    
+    color: rgb(20, 20, 20);  
+
 }
 
 /* div de los botones de redes sociales */
 .BotonesSignIn{
+
     display: flex;
     justify-content: center;
     text-align: center;  
+
 }
 
 /* div de redes sociales */
 .iconRed{
+
     border: 0.1px solid rgb(202, 198, 198);
     border-radius: 10%;
     width: 17%;    
@@ -69,9 +87,11 @@ section{
     padding: 2%;
     display: flex;
     justify-content: center;
+
 }
 
 .iconRed:hover{
+
     border: 0.2px solid grey;
     border-radius: 10%;
     width: 17%;    
@@ -80,4 +100,133 @@ section{
     display: flex;
     justify-content: center;
     cursor: pointer;
+
 }
+
+
+/* botones de email y mobile */
+.mailmobile{
+
+    display: flex;
+    justify-content:space-evenly; 
+
+}
+
+/* boton de email */
+.email{
+    
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF731D;
+    width: 80px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+}
+
+/* boton de mobile */
+.mobile{
+    
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    width: 100px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+/* boton de sign */
+.sign{
+    
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #FF731D;
+    width: 180px;
+    height: 35px;
+    border: none;
+    border-radius:8px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+/* imput personalizado */
+.inputestilizado{
+    
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    align-items: center;
+    height: 35px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 10px;
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+/* div del imput */
+.inputsForm{
+    background-color: transparent;
+    width: 400px;
+    padding: 30px;
+}
+
+/* otro div del input */
+.inputsForm2{
+
+    background-color: #fff;
+    color: #818181;
+    font-weight: bold;
+    margin: 15px;
+    width:290px;
+ 
+}
+
+
+/* linea divisora entre los botones y el formulario */
+.linetext {
+    
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;    
+    height: 1.5em;
+    opacity: 0.5;
+
+  }
+
+  .linetext:before {
+
+    background: linear-gradient(to right, transparent, #5e5d5a, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+
+  }
+  
+  .linetext:after {
+
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 0.5em;
+    line-height: 1.5em;
+    color: #818078;
+    background-color: #fcfcfa;
+
+  }
