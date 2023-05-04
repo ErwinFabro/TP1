@@ -41,10 +41,13 @@ p {
 /* imagen del index */
 .imageIndex{
 
-
+    background-image: url(/img/gift.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: 100%;
     margin-right: 60px;
     height: 600px;
-    width: 600px;
+    width: 500px;
     border-radius: 10px 10px 10px 10px
 
     }
@@ -140,7 +143,6 @@ p {
     font-weight: bold;
     color: black;
     background-color: white;
-
     border: none;
     border-radius: 10px; 
     cursor: pointer;
@@ -169,11 +171,9 @@ p {
     font-weight: bold;
     color: white;
     background-color: #FF731D;
-    width: 80px;
-    height: 35px;
+    width: 50%;
     border: none;
-    border-radius:8px;
-    align-items: center;
+    border-radius:8px; 
     cursor: pointer;
 
 }
