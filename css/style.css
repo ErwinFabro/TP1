@@ -43,7 +43,7 @@ p {
 
     background-image: url(/img/gift.jpg);
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     background-size: 100%;
     margin-right: 60px;
     height: 600px;
@@ -67,7 +67,8 @@ p {
 /* texto seccion derecha */
 .sidebarText{ 
 
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     display: flex;
     font-size: 18px;
     justify-content: center;
@@ -175,7 +176,6 @@ p {
     border: none;
     border-radius:8px; 
     cursor: pointer;
-
 }
 
 /* imput personalizado */
@@ -185,27 +185,51 @@ p {
     font-weight: bold;
     color: black;
     background-color: transparent;
-    align-items: center;
+    padding-left: 20px;
     height: 35px;
     border: 1px solid #ccc;
     width: 100%;
     border-radius: 10px;
-    text-align:center;
+
 
 
 }
 
-.alineate {
 
+/* imput personalizado */
+.inputestilizado2{
+    background-image: url(/img/icons/eye.svg);
+background-position: right;
+background-repeat: none;
+background-size: 10%;
+background-repeat: no-repeat;
+    
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
     background-color: transparent;
 
-  }
+    height: 35px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 10px;
+text-align:start;
+padding-left: 20px;
+
+
+
+}
+
+
+
+
 
 /* div del imput */
 .inputsForm{
     background-color: transparent;
     color: black;
     padding: 30px;
+    justify-content: center;
 }
 
 /* otro div del input */
@@ -214,9 +238,11 @@ p {
     background-color: transparent;
     color: #818181;
     font-weight: bold;
-    margin: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
     width:290px;
     color: black;
+    justify-content: center;
  
 }
 
@@ -224,7 +250,7 @@ p {
 /* linea divisora entre los botones y el formulario */
 .linetext {
     
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1em;
     position: relative;
