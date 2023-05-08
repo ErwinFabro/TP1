@@ -41,7 +41,7 @@ p {
 /* imagen del index */
 .imageIndex{
 
-    background-image: url(img/gift.jpg);
+    background-image: url("img/gift.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -198,7 +198,7 @@ p {
 
 /* imput personalizado */
 .inputestilizado2{
-    background-image: url(img/icons/eye.svg);
+    background-image: url("img/icons/eye.svg");
 background-position: right;
 background-repeat: none;
 background-size: 10%;
