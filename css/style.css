@@ -23,6 +23,12 @@ a {
 
 }
 
+a:hover,
+a:focus {
+  background-color: transparent;
+  color: orangered;
+}
+
 section{
     background-color: transparent;
      display: flex; 
@@ -47,8 +53,8 @@ p {
     margin-right: 60px;
     height: 600px;
     width: 500px;
-    border-radius: 10px 10px 10px 10px;
-
+    border-radius: 0.5em;
+    
     }
 
 
@@ -58,7 +64,7 @@ p {
     width: 400px;
     height: 600px;
     border: 2px solid #d2d2d2;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0.5em;
 
 }
 
@@ -66,7 +72,7 @@ p {
 /* texto seccion derecha */
 .sidebarText{ 
 
-    padding-top: 20px;
+    padding-top: 2em;
     padding-bottom: 15px;
     display: flex;
     font-size: 18px;
