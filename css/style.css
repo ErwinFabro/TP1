@@ -41,7 +41,7 @@ p {
 /* imagen del index */
 .imageIndex{
 
-    background-image: url(img/gift.jpg);
+    background-image: url(/img/gift.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -242,6 +242,9 @@ padding-left: 20px;
     margin-right: 10%;
     width:290px;
     color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
  
 }
