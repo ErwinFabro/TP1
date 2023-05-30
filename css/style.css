@@ -12,6 +12,7 @@ body{
 
     background-color: transparent;
     font-family: 'Questrial', sans-serif;
+    height: 70vh;
 
 }
 
@@ -23,12 +24,10 @@ a {
 }
 
 section{
-
     background-color: transparent;
      display: flex; 
     justify-content: center;
     margin: 10%;
-
 }
 
 p {
